@@ -16,7 +16,7 @@ if [ -z "$FISHEYE_HOME" ]; then
     PRG="$0"
     FISHEYE_HOME=`dirname "$PRG"`/..
     # make it fully qualified
-    FISHEYE_HOME=`cd "$FISHEYE_HOME" && pwd`
+    export FISHEYE_HOME=`cd "$FISHEYE_HOME" && pwd`
 fi
 
 if [ ! -f "$FISHEYE_HOME/fisheyeboot.jar" ] ; then
