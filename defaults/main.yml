@@ -9,9 +9,9 @@ fisheye_uid: ~
 fisheye_user: ~
 
 # optional variables with default
-fisheye_archive: "fisheye-4.4.1.zip"
+fisheye_archive: "fisheye-4.4.2.zip"
 fisheye_catalina: "/usr/share/fisheye"
-fisheye_checksum: "sha256:7d83fc59d9c0627ba0d91f2d59fe8bb870333b5708b1d6b8b166a336b36612ba"
+fisheye_checksum: "sha256:d1ded62c799e5e1f7f15230d6c8aabaa66522db92fb89aece7db63ee7f4dcca2"
 fisheye_connector_port: "8060"
 fisheye_context_path: ~
 fisheye_home: "/var/lib/fisheye"
